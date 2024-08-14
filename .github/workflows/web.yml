@@ -62,10 +62,9 @@ jobs:
         run: npm run build
 
       - name: Upload artifact
-        working-directory: ./web
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./public
+          path: ./web/public
 
   # Deployment job
   deploy:
