@@ -49,19 +49,20 @@ jobs:
           rm go${{ env.GO_VERSION }}.linux-amd64.tar.gz
           go version
 
-      - name: Change to web directory
-        run: cd web
-
       - name: Setup Project
+        working-directory: ./web
         run: npm run project-setup
 
       - name: Install npm dependencies
+        working-directory: ./web
         run: npm install
 
       - name: Publish to GitHub Pages
+        working-directory: ./web
         run: npm run build
 
       - name: Upload artifact
+        working-directory: ./web
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
