@@ -48,6 +48,9 @@ jobs:
           rm go${{ env.GO_VERSION }}.linux-amd64.tar.gz
           go version
 
+      - name: Change to web directory
+        run: cd web
+
       - name: Setup Project
         run: npm run project-setup
 
