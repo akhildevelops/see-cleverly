@@ -21,9 +21,9 @@ features:
       - "Share marketing messages through whatsapp / sms to customers after entering the store"
       - "Track and identify shoplifters through advanced intelligence"
     button:
-      enable: false
-      label: "Get Started Now"
-      link: "#"
+      enable: true
+      label: "Real Demo"
+      link: "/retail"
 
   - title: "Gated Community"
     image: "/images/service-1.svg"
