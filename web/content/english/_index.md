@@ -1,9 +1,9 @@
 ---
 # Banner
 banner:
-  title: "See-Cleverly"
+  title: "See Cleverly"
   content: "Hugoplate is a free starter template built with Hugo and TailwindCSS, providing everything you need to jumpstart your Hugo project and save valuable time."
-  image: "/images/banner.png"
+  image: "/images/banner.svg"
   button:
     enable: true
     label: "Get Started For Free"
@@ -11,8 +11,8 @@ banner:
 
 # Features
 features:
-  - title: "What's Included in Hugoplate"
-    image: "/images/service-1.png"
+  - title: "Retail Store"
+    image: "/images/service-2.svg"
     content: "Hugoplate is a comprehensive starter template that includes everything you need to get started with your Hugo project. What's Included in Hugoplate"
     bulletpoints:
       - "10+ Pre-build pages"
@@ -26,8 +26,8 @@ features:
       label: "Get Started Now"
       link: "#"
 
-  - title: "Discover the Key Features Of Hugo"
-    image: "/images/service-2.png"
+  - title: "Gated Community"
+    image: "/images/service-1.svg"
     content: "Hugo is an all-in-one web framework for building fast, content-focused websites. It offers a range of exciting features for developers and website creators. Some of the key features are:"
     bulletpoints:
       - "Zero JS, by default: No JavaScript runtime overhead to slow you down."
@@ -38,8 +38,8 @@ features:
       label: "Get Started Now"
       link: "https://github.com/zeon-studio/hugoplate"
 
-  - title: "The Top Reasons to Choose Hugo for Your Hugo Project"
-    image: "/images/service-3.png"
+  - title: "Find Parking"
+    image: "/images/service-3.svg"
     content: "With Hugo, you can build modern and content-focused websites without sacrificing performance or ease of use."
     bulletpoints:
       - "Instantly load static sites for better user experience and SEO."
