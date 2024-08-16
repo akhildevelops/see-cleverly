@@ -2,10 +2,10 @@
 # Banner
 banner:
   title: "See Cleverly"
-  content: "Hugoplate is a free starter template built with Hugo and TailwindCSS, providing everything you need to jumpstart your Hugo project and save valuable time."
+  content: "Our platform integrates with existing CCTV infra and intelligently provides business insights, raise alerts and optimize operations of the surroundings saving **huge manual operational hours**."
   image: "/images/banner.svg"
   button:
-    enable: true
+    enable: false
     label: "Get Started For Free"
     link: "https://github.com/zeon-studio/hugoplate"
 
@@ -13,14 +13,13 @@ banner:
 features:
   - title: "Retail Store"
     image: "/images/service-2.svg"
-    content: "Hugoplate is a comprehensive starter template that includes everything you need to get started with your Hugo project. What's Included in Hugoplate"
+    content: "Optimize and gain Customer insights similar to insights gained from running an online store."
     bulletpoints:
-      - "10+ Pre-build pages"
-      - "95+ Google Pagespeed Score"
-      - "Build with Hugo and TailwindCSS for easy and customizable styling"
-      - "Fully responsive on all devices"
-      - "SEO-optimized for better search engine rankings"
-      - "**Open-source and free** for personal and commercial use"
+      - "Understand customer behaviour before picking a product from the shelf"
+      - "Automatically route customer to billing counter for faster checkout"
+      - "Identify and alert the staff for products placed in wrong shelf"
+      - "Share marketing messages through whatsapp / sms to customers after entering the store"
+      - "Track and identify shoplifters through advanced intelligence"
     button:
       enable: false
       label: "Get Started Now"
@@ -28,24 +27,25 @@ features:
 
   - title: "Gated Community"
     image: "/images/service-1.svg"
-    content: "Hugo is an all-in-one web framework for building fast, content-focused websites. It offers a range of exciting features for developers and website creators. Some of the key features are:"
+    content: "Run your daily operations as efficiently as possible through our intellegent agent. Optimize field workforce in assigning tasks."
     bulletpoints:
-      - "Zero JS, by default: No JavaScript runtime overhead to slow you down."
-      - "Customizable: Tailwind, MDX, and 100+ other integrations to choose from."
-      - "UI-agnostic: Supports React, Preact, Svelte, Vue, Solid, Lit and more."
+      - "Without any additional costs such as RFID, authorize vehicle entries by scanning numberplate"
+      - "Automatically monitor field staff in cleaning the premises and send automatically send alerts if cleaning is necessary"
+      - "Alert residents for illegal parking in the premises"
+      - "Get tracemap of each suspected individual of all the visited places in the community"
     button:
-      enable: true
+      enable: false
       label: "Get Started Now"
       link: "https://github.com/zeon-studio/hugoplate"
 
   - title: "Find Parking"
     image: "/images/service-3.svg"
-    content: "With Hugo, you can build modern and content-focused websites without sacrificing performance or ease of use."
+    content: "Easily help your customers / employees to find and route to empty parking slots"
     bulletpoints:
-      - "Instantly load static sites for better user experience and SEO."
-      - "Intuitive syntax and support for popular frameworks make learning and using Hugo a breeze."
-      - "Use any front-end library or framework, or build custom components, for any project size."
-      - "Built on cutting-edge technology to keep your projects up-to-date with the latest web standards."
+      - "With exisiting CCTV Infra find empty parking slots in your premises"
+      - "Guide vehicle movement to empty parking slots through digital signages"
+      - "Free up your security personnel to take care of important activities"
+      - "Be alerted if other company employees are parking in your alloted parking spaces"
     button:
       enable: false
       label: ""
