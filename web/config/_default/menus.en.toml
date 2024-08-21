@@ -16,6 +16,12 @@ name="Retail Store"
 pageRef = "/retail"
 weight = 2
 
+
+[[main]]
+name="Gated Community"
+pageRef = "/gated-community"
+weight = 3
+
 #[[main]]
 #name = "Elements"
 #pageRef = "/elements"

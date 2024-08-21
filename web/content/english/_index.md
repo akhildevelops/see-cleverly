@@ -34,9 +34,9 @@ features:
       - "Alert residents for illegal parking in the premises"
       - "Get tracemap of each suspected individual of all the visited places in the community"
     button:
-      enable: false
-      label: "Get Started Now"
-      link: "https://github.com/zeon-studio/hugoplate"
+      enable: true
+      label: "Go here"
+      link: "/gated-community"
 
   - title: "Find Parking"
     image: "/images/service-3.svg"
