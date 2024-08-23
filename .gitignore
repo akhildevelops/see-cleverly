@@ -4,3 +4,6 @@ ideapad/
 .vscode
 .env
 db_data
+.venv
+yoyo
+__pycache__

@@ -7,8 +7,13 @@ requires-python = ">=3.12"
 dependencies = [
     "fastapi>=0.112.1",
     "pydantic>=2.8.2",
+    "yoyo-migrations==9.0.0",
+    "psycopg[binary]>=3.2.1",
 ]
 
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
+
+[tool.uv]
+dev-dependencies = ["pytest>=8.3.2", "uvicorn>=0.30.6"]
