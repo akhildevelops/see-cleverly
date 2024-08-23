@@ -3,3 +3,4 @@ zig-out/
 ideapad/
 .vscode
 .env
+db_data

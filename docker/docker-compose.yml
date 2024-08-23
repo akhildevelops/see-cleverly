@@ -1,0 +1,15 @@
+name: see-cleverly
+
+services:
+  database:
+    container_name: see-cleverly-postgres
+    image: postgres@sha256:07ad6d6385313c68c8acd575ac8cc0d73921cdea430afd3dc228782ee1f5a73b
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+      POSTGRES_USER: ${DB_USERNAME}
+      POSTGRES_DB: ${DB_DATABASE_NAME}
+      POSTGRES_INITDB_ARGS: '--data-checksums'
+    volumes:
+      - ${DB_DATA_LOCATION}:/var/lib/postgresql/data
