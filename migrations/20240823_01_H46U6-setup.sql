@@ -40,7 +40,7 @@ CREATE TABLE IF NOT EXISTS light (
     module_id INTEGER NOT NULL REFERENCES module (id) DEFAULT 1,
     camera_id INTEGER REFERENCES camera (id),
     located_at VARCHAR(100) NOT NULL,
-    capture_interval INTEGER DEFAULT 60
+    capture_interval INTEGER NOT NULL
 );
 
 CREATE TABLE IF NOT EXISTS light_activity (

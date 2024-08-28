@@ -8,7 +8,7 @@ dependencies = [
     "fastapi>=0.112.1",
     "pydantic>=2.8.2",
     "yoyo-migrations==9.0.0",
-    "psycopg[binary]>=3.2.1",
+    "psycopg[binary,pool]>=3.2.1",
 ]
 
 [build-system]
